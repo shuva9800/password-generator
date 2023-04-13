@@ -1,0 +1,33 @@
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color:aqua;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+.counter{
+    background: white;
+    color: #344151;
+    font-size: 25px;
+    border-radius: 3px;
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap:12px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+#decrement1{
+    border-right: 2px solid black;
+    padding-left: 5px;
+
+}
+#increment1{
+    border-right: 2px solid black;
+    padding-left: 5px;
+}
